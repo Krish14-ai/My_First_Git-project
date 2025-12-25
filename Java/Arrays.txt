@@ -1,0 +1,97 @@
+ARRAYS – INTRODUCTION (DATA STRUCTURES)
+
+What is an Array?
+An array is a data structure used to store multiple values of the same data type under one variable name.
+Instead of creating many variables, we store all related values together.
+
+Example:
+marks = [70, 85, 90, 60]
+
+How Arrays are Stored in Memory
+Arrays store elements in continuous (adjacent) memory locations.
+This allows fast access to any element using its index.
+
+Memory representation:
+| 70 | 85 | 90 | 60 |
+
+Indexing
+Each element in an array has a position called an index.
+Indexing usually starts from 0.
+
+marks = [70, 85, 90, 60]
+index     0   1   2   3
+
+marks[0] gives 70
+marks[2] gives 90
+
+Why Arrays are Fast
+Arrays allow direct access to elements using index.
+The computer calculates the memory address directly.
+This is called constant time access (O(1)).
+
+Array Declaration Examples
+
+Python:
+arr = [10, 20, 30, 40]
+
+Java:
+int[] arr = {10, 20, 30, 40};
+
+C:
+int arr[4] = {10, 20, 30, 40};
+
+Traversing an Array
+Traversing means visiting each element of the array.
+
+Python example:
+for i in range(len(arr)):
+    print(arr[i])
+
+Types of Arrays
+
+1. One-Dimensional Array
+A simple list of elements.
+Example:
+[1, 2, 3, 4, 5]
+
+Used for storing marks, prices, scores, etc.
+
+2. Two-Dimensional Array
+An array of arrays.
+Example:
+[
+  [1, 2],
+  [3, 4]
+]
+
+Used for matrices, tables, grids, and images.
+
+Advantages of Arrays
+- Fast access to elements
+- Simple and easy to use
+- Efficient memory usage
+
+Limitations of Arrays
+- Fixed size
+- Insertion and deletion are slow
+- Stores only same data type
+
+When to Use Arrays
+Use arrays when:
+- The size of data is known
+- Fast access is required
+- Data type is same
+
+Avoid arrays when:
+- Data size changes frequently
+- Many insert or delete operations are needed
+
+Important Exam Points
+- Index-based questions
+- Loop tracing on arrays
+- Finding maximum, minimum, sum
+- Basic 2D array problems
+
+Key Sentence to Remember
+An array stores elements of the same data type in continuous memory locations and allows fast access using index.
+

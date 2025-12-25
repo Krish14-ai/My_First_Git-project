@@ -10,6 +10,7 @@ public class arrays{
         }
 
         // Calculate and print the sum of the array elements
+        // it's time complexity is O(n)
         int sum = 0;
         for (int num : numbers) {
             sum += num;
@@ -20,6 +21,7 @@ public class arrays{
        System.out.println("Mean of array elements: " + mean);
 
        // find the maximum value in the array
+       // it's time complexity is O(n)
        int max = 0;
        for(int i = 0; i<numbers.length-1; i++){
         if(numbers[i]>numbers[i+1]){
@@ -35,6 +37,7 @@ public class arrays{
        System.out.println("Maximum value in the array: " + max);
 
        // we use the the same process to find the minimum value in the array
+       // it's time complexity is also O(n)
        int min = -1;
        for(int i = 0; i < numbers.length -1; i++){
         if(numbers[i] < numbers[i+1]){
