@@ -33,4 +33,19 @@ public class arrays{
         }
        }
        System.out.println("Maximum value in the array: " + max);
+
+       // we use the the same process to find the minimum value in the array
+       int min = -1;
+       for(int i = 0; i < numbers.length -1; i++){
+        if(numbers[i] < numbers[i+1]){
+            min = numbers[i];
+        }
+        else if(numbers[i]>numbers[i+1]){
+            min = numbers[i+1];
+        }
+        else{
+            min = numbers[i];
+        }
+        System.out.println("Minimum value in the array: " + min);
+       }
     }}
