@@ -15,5 +15,22 @@ public class arrays{
             sum += num;
         }
         System.out.println("Sum of array elements: " + sum);
-    }
-}
+          // To find the mean of the array elements
+       double mean = (double) sum / numbers.length;
+       System.out.println("Mean of array elements: " + mean);
+
+       // find the maximum value in the array
+       int max = 0;
+       for(int i = 0; i<numbers.length-1; i++){
+        if(numbers[i]>numbers[i+1]){
+            max = numbers[i];
+        }
+        else if(numbers[i]<numbers[i+1]){
+            max = numbers[i+1];
+        }
+        else{
+            max = numbers[i];
+        }
+       }
+       System.out.println("Maximum value in the array: " + max);
+    }}
