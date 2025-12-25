@@ -202,4 +202,4 @@ If you are learning DSA too, feel free to explore and learn along.
 
 ---
 
-⭐ If you find this helpful, consider starring the repository.
+⭐ If you find this helpful, consider starring the repo.
