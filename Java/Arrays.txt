@@ -95,3 +95,8 @@ Important Exam Points
 Key Sentence to Remember
 An array stores elements of the same data type in continuous memory locations and allows fast access using index.
 
+Note :-
+ A word of advice if you can't understand the given information is to imagine array as the bogeys of a train and elements as the passengers,
+ As the passengers have their "own seat numbers" and "bogey numbers" assigned to them so as the elements.
+ Elements too have their own "indices" and their own "addresses" in memory where they are stored in the memory.
+ This visualization of passengers in a bogey of a train will make things easier to understand.
