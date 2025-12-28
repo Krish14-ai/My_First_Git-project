@@ -1,7 +1,14 @@
 # Data Structures and Algorithms (DSA)
+======================================
+
+#Author  : Krish
+#Purpose : Clean, structured notes and implementations of core
+          Data Structures and Algorithms for learning, revision,
+          and interview preparation.
+--------------------------------------------------------------------          
 
 ## 📌 About This Repository
-
+----------------------------
 This repository is a learning-focused collection that reflects my understanding of **Data Structures** built over the past few months. It is not a traditional project or application. Instead, it is a structured knowledge base that explains different data structures, how they work, where they are used, and why they matter.
 
 The goal is simple:
@@ -181,6 +188,7 @@ Almost every tech company tests DSA because it shows how well you think, not jus
 
 * Beginners learning DSA
 * Students preparing for exams or interviews
+* Interview preparation
 * Anyone who wants clean explanations with practical use cases
 
 ---
@@ -193,6 +201,16 @@ Almost every tech company tests DSA because it shows how well you think, not jus
 * Add practice problems
 
 ---
+
+HOW TO USE
+----------
+1. Start with Array.txt
+2. Move sequentially through Stack, Queue, and Linked List
+3. Practice implementations alongside reading
+4. Use files as quick revision notes
+   
+---
+
 
 ## 📌 Note
 
