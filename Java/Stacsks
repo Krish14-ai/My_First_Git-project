@@ -1,1 +1,18 @@
+STACK DATA STRUCTURE
+====================
+** OVERVIEW **
 
+A Stack is a linear data structure that follows the LIFO principle
+(Last In, First Out).
+
+The last element inserted into the stack is the first one to be removed.
+
+* Example analogy:
+A stack of plates. You add plates on the top and remove plates from the top only.
+
+** KEY CHARACTERISTICS **
+
+# Access is restricted to one end only (called TOP)
+# No random access to elements
+# Simple and efficient
+# Frequently used in system-level operations
