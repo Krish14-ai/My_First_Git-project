@@ -1,7 +1,7 @@
 # Data Structures and Algorithms (DSA)
 
-#Author  : Krish.
-#Purpose : Clean, structured notes and implementations of core
+Author  : Krish.
+Purpose : Clean, structured notes and implementations of core
           Data Structures and Algorithms for learning, revision,
           and interview preparation.
 --------------------------------------------------------------------          
