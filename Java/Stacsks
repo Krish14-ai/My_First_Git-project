@@ -51,8 +51,20 @@ No overflow (until memory runs out)
 Slightly higher memory usage
 Occurs when trying to pop an element from an empty stack
 ----------------------------------------------------------
-Time Complexity
-Operation	Complexity
-Push	O(1)
-Pop	O(1)
-Peek	O(1)
+**Time Complexity
+*Operation	Complexity
+*Push	O(1)
+*Pop	O(1)
+*Peek	O(1
+----------------------------
+
+**Applications
+
+-Function calls and recursion (call stack)
+-Undo / Redo operations
+-xpression evaluation (infix, postfix)
+-Syntax checking (balanced parentheses)
+-Backtracking algorithms
+-Depth First Search (DFS)
+
+Stacks are invisible heroes. If you write recursive code, you are already using one.
