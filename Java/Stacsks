@@ -32,16 +32,14 @@ isFull	Check if the stack is full (array-based stack)
 Occurs when trying to push an element into a full stack
 
 *Stack Underflow
+-----------------------------------------------------------
 
 Implementation Approaches
 1. Array-Based Stack
 
 Fixed size
-
 Faster access
-
 Memory efficient
-
 Risk of overflow
 
 2. Linked List-Based Stack
@@ -52,3 +50,9 @@ No overflow (until memory runs out)
 
 Slightly higher memory usage
 Occurs when trying to pop an element from an empty stack
+----------------------------------------------------------
+Time Complexity
+Operation	Complexity
+Push	O(1)
+Pop	O(1)
+Peek	O(1)
