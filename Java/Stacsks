@@ -26,10 +26,29 @@ isEmpty	Check if the stack is empty
 isFull	Check if the stack is full (array-based stack)
 
 
-STACK ERRORS
+**STACK ERRORS**
 
-Stack Overflow
+*Stack Overflow
 Occurs when trying to push an element into a full stack
 
-Stack Underflow
+*Stack Underflow
+
+Implementation Approaches
+1. Array-Based Stack
+
+Fixed size
+
+Faster access
+
+Memory efficient
+
+Risk of overflow
+
+2. Linked List-Based Stack
+
+Dynamic size
+
+No overflow (until memory runs out)
+
+Slightly higher memory usage
 Occurs when trying to pop an element from an empty stack
