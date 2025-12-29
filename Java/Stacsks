@@ -17,6 +17,15 @@ A stack of plates. You add plates on the top and remove plates from the top only
 # Simple and efficient
 # Frequently used in system-level operations
 
+Basic Operations
+Operation	Description
+Push	Insert an element at the top
+Pop	Remove the top element
+Peek / Top	View the top element without removing it
+isEmpty	Check if the stack is empty
+isFull	Check if the stack is full (array-based stack)
+
+
 STACK ERRORS
 
 Stack Overflow
