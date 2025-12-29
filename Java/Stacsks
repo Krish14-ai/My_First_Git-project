@@ -16,3 +16,11 @@ A stack of plates. You add plates on the top and remove plates from the top only
 # No random access to elements
 # Simple and efficient
 # Frequently used in system-level operations
+
+STACK ERRORS
+
+Stack Overflow
+Occurs when trying to push an element into a full stack
+
+Stack Underflow
+Occurs when trying to pop an element from an empty stack
