@@ -80,4 +80,38 @@ IMPLEMENTATION METHODS
    - No overflow until memory limit
 
 ------------------------------------------------------------
+TIME COMPLEXITY
+---------------
+Enqueue : O(1)
+Dequeue : O(1)
+Front   : O(1)
+
+------------------------------------------------------------
+
+APPLICATIONS
+------------
+- CPU scheduling
+- Printer spooling
+- Breadth First Search (BFS)
+- Request handling in servers
+- Task scheduling systems
+
+------------------------------------------------------------
+
+WHY QUEUES MATTER
+-----------------
+Queues ensure fair and ordered processing.
+They are critical in operating systems, networking,
+and real-time systems.
+
+------------------------------------------------------------
+
+USAGE NOTE
+----------
+Queues are preferred when order of execution must be preserved.
+
+------------------------------------------------------------
+
+END OF FILE
+
 
