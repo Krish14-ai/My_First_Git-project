@@ -1,0 +1,18 @@
+QUEUE DATA STRUCTURE
+===================
+
+Purpose : Explain the Queue data structure in a clear, structured,
+          and practical manner for learning and revision.
+
+------------------------------------------------------------
+
+OVERVIEW
+--------
+A Queue is a linear data structure that follows the FIFO principle
+(First In, First Out).
+
+The element inserted first is the first one to be removed.
+
+A real-world analogy is a line at a ticket counter.
+
+------------------------------------------------------------
