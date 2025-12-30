@@ -54,3 +54,30 @@ QUEUE TYPES
 4. Deque (Double Ended Queue)
 
 ------------------------------------------------------------
+QUEUE ERRORS
+------------
+1. Queue Overflow
+   Occurs when inserting into a full queue
+
+2. Queue Underflow
+   Occurs when removing from an empty queue
+
+------------------------------------------------------------
+
+IMPLEMENTATION METHODS
+----------------------
+1. Array-Based Queue
+   - Fixed size
+   - Simple implementation
+   - May waste space in linear queue
+
+2. Circular Queue
+   - Efficient space utilization
+   - Rear connects back to front
+
+3. Linked List-Based Queue
+   - Dynamic size
+   - No overflow until memory limit
+
+------------------------------------------------------------
+
