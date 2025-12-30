@@ -16,3 +16,34 @@ The element inserted first is the first one to be removed.
 A real-world analogy is a line at a ticket counter.
 
 ------------------------------------------------------------
+KEY CHARACTERISTICS
+-------------------
+- Elements are inserted at the REAR
+- Elements are removed from the FRONT
+- No random access
+- Predictable order of processing
+
+------------------------------------------------------------
+
+BASIC OPERATIONS
+----------------
+1. Enqueue
+   Inserts an element at the rear of the queue
+
+2. Dequeue
+   Removes an element from the front of the queue
+
+3. Front
+   Returns the front element without removing it
+
+4. Rear
+   Returns the last element in the queue
+
+5. isEmpty
+   Checks whether the queue is empty
+
+6. isFull
+   Checks whether the queue is full (array-based queue)
+
+------------------------------------------------------------
+
