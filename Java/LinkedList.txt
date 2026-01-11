@@ -197,3 +197,4 @@ Arrays allow direct access using index, linked lists do not.
 | ------------------ | ----------- | -------------- |
 | Memory             | Continuous  | Non-continuous |
 | Size               | Fixed       | Dynamic        |
+| Access             | Fast (O(1)) | Slow (O(n))    |
