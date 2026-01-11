@@ -1,0 +1,97 @@
+# LINKED LIST – INTRODUCTION (DATA STRUCTURES)
+
+## What is a Linked List?
+
+A **Linked List** is a linear data structure used to store multiple values **not in continuous memory**.
+Each value is stored inside a unit called a **node**.
+
+Each node contains:
+
+* **Data** – the actual value
+* **Link** – the address/reference of the next node
+
+Instead of storing elements together like arrays, linked lists connect elements using links.
+
+---
+
+## Example (Conceptual)
+
+Values:
+10, 20, 30, 40
+
+Linked List representation:
+
+[10 | • ] → [20 | • ] → [30 | • ] → [40 | null]
+
+Here:
+
+* `•` stores the address of the next node
+* `null` indicates the end of the list
+
+---
+
+## How Linked Lists are Stored in Memory
+
+Linked lists store elements in **non-continuous memory locations**.
+Each node can be placed anywhere in memory.
+
+Nodes are connected using **addresses (links)**.
+
+Conceptual memory layout:
+
+Node A (10) → Node F (20) → Node B (30) → Node K (40)
+
+This is why linked lists do **not require contiguous memory**.
+
+---
+
+## Head and Tail
+
+* **Head**: Reference to the first node of the list
+* **Tail**: The last node whose link is `null`
+
+If the head is `null`, the linked list is considered **empty**.
+
+---
+
+## Why Linked Lists are Flexible
+
+* Size is **not fixed**
+* Memory is allocated **only when required**
+* Insertions and deletions do not involve shifting elements
+
+---
+
+## Types of Linked Lists
+
+### 1. Singly Linked List
+
+Each node contains:
+
+* Data
+* Link to the next node
+
+Traversal is possible in **only one direction**.
+
+Structure:
+
+Head → Node → Node → Node → null
+
+---
+
+### 2. Doubly Linked List
+
+Each node contains:
+
+* Data
+* Link to the previous node
+* Link to the next node
+
+Traversal is possible in **both directions**.
+
+Structure:
+
+null ← Node ⇄ Node ⇄ Node → null
+
+---
+
