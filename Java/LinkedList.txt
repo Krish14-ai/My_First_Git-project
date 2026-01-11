@@ -198,3 +198,78 @@ Arrays allow direct access using index, linked lists do not.
 | Memory             | Continuous  | Non-continuous |
 | Size               | Fixed       | Dynamic        |
 | Access             | Fast (O(1)) | Slow (O(n))    |
+| Insertion/Deletion | Slow        | Fast           |
+| Memory Overhead    | Less        | More           |
+
+---
+
+## Advantages of Linked Lists
+
+* Dynamic size
+* Efficient insertion and deletion
+* No memory wastage due to fixed size
+* Useful for dynamic data handling
+
+---
+
+## Limitations of Linked Lists
+
+* No random access
+* Extra memory required for links
+* Slower traversal
+* Pointer management is complex
+
+---
+
+## Applications of Linked Lists
+
+* Stack and Queue implementation
+* Dynamic memory allocation
+* Undo and Redo operations
+* Graph adjacency lists
+* Polynomial manipulation
+
+---
+
+## When to Use Linked Lists
+
+Use linked lists when:
+
+* Data size changes frequently
+* Insert and delete operations are common
+* Dynamic memory allocation is required
+
+Avoid linked lists when:
+
+* Fast access is required
+* Memory efficiency is critical
+* Data size is fixed
+
+---
+
+## Important Exam Points
+
+* Definition of linked list
+* Types of linked lists
+* Advantages and disadvantages
+* Comparison with arrays
+* Time complexity of operations
+
+---
+
+## Key Sentence to Remember
+
+A linked list stores elements in non-contiguous memory locations where each element points to the next using links.
+
+---
+
+## Note :-
+
+Imagine a **linked list as a treasure hunt**.
+
+Each clue (node) tells you **where the next clue is hidden**.
+You cannot jump directly to the last clue.
+You must follow the clues **one by one starting from the first**.
+
+This visualization makes linked lists much easier to understand.
+>>>>>>> 861bfc5 (completed linklist)
