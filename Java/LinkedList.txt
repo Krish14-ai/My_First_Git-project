@@ -95,3 +95,105 @@ null ← Node ⇄ Node ⇄ Node → null
 
 ---
 
+### 3. Circular Linked List
+
+The last node points back to the first node instead of `null`.
+
+There is **no null reference** in a circular linked list.
+
+---
+
+## Traversing a Linked List
+
+Traversing means visiting each node one by one starting from the head.
+
+Traversal continues until:
+
+* `null` is found (singly or doubly linked list)
+* Head is reached again (circular linked list)
+
+Time Complexity: **O(n)**
+
+---
+
+## Insertion in a Linked List
+
+### Insertion at Beginning
+
+* New node becomes the head
+* Old head becomes the next node
+
+Time Complexity: **O(1)**
+
+---
+
+### Insertion at End
+
+* Traverse until the last node
+* Update the last node’s link
+
+Time Complexity: **O(n)**
+
+---
+
+### Insertion at a Given Position
+
+* Traverse to the desired position
+* Carefully adjust links
+
+Time Complexity: **O(n)**
+
+---
+
+## Deletion in a Linked List
+
+### Deletion from Beginning
+
+* Head is updated to the next node
+
+Time Complexity: **O(1)**
+
+---
+
+### Deletion from End
+
+* Traverse to the second last node
+* Update its link to `null`
+
+Time Complexity: **O(n)**
+
+---
+
+### Deletion by Value
+
+* Search for the node containing the value
+* Adjust links to bypass it
+
+Time Complexity: **O(n)**
+
+---
+
+## Searching in a Linked List
+
+Searching is done using **sequential traversal**.
+Each node’s data is compared with the target value.
+
+Time Complexity: **O(n)**
+
+---
+
+## Why Linked Lists are Slower than Arrays
+
+Linked lists do **not support direct access**.
+To reach any element, traversal from the head is required.
+
+Arrays allow direct access using index, linked lists do not.
+
+---
+
+## Comparison: Array vs Linked List
+
+| Feature            | Array       | Linked List    |
+| ------------------ | ----------- | -------------- |
+| Memory             | Continuous  | Non-continuous |
+| Size               | Fixed       | Dynamic        |
