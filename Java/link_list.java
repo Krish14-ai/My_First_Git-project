@@ -33,6 +33,12 @@ public class link_list {
         }
         System.out.println("null");
     }
+
+    public void deleteHead() { // delete at first
+    if (head == null) return;
+    head = head.next;
+}
+
       
     public int getSize(){  // size of linked list
         return size;
