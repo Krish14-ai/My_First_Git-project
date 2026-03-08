@@ -1,0 +1,275 @@
+# LINKED LIST – INTRODUCTION (DATA STRUCTURES)
+
+## What is a Linked List?
+
+A **Linked List** is a linear data structure used to store multiple values **not in continuous memory**.
+Each value is stored inside a unit called a **node**.
+
+Each node contains:
+
+* **Data** – the actual value
+* **Link** – the address/reference of the next node
+
+Instead of storing elements together like arrays, linked lists connect elements using links.
+
+---
+
+## Example (Conceptual)
+
+Values:
+10, 20, 30, 40
+
+Linked List representation:
+
+[10 | • ] → [20 | • ] → [30 | • ] → [40 | null]
+
+Here:
+
+* `•` stores the address of the next node
+* `null` indicates the end of the list
+
+---
+
+## How Linked Lists are Stored in Memory
+
+Linked lists store elements in **non-continuous memory locations**.
+Each node can be placed anywhere in memory.
+
+Nodes are connected using **addresses (links)**.
+
+Conceptual memory layout:
+
+Node A (10) → Node F (20) → Node B (30) → Node K (40)
+
+This is why linked lists do **not require contiguous memory**.
+
+---
+
+## Head and Tail
+
+* **Head**: Reference to the first node of the list
+* **Tail**: The last node whose link is `null`
+
+If the head is `null`, the linked list is considered **empty**.
+
+---
+
+## Why Linked Lists are Flexible
+
+* Size is **not fixed**
+* Memory is allocated **only when required**
+* Insertions and deletions do not involve shifting elements
+
+---
+
+## Types of Linked Lists
+
+### 1. Singly Linked List
+
+Each node contains:
+
+* Data
+* Link to the next node
+
+Traversal is possible in **only one direction**.
+
+Structure:
+
+Head → Node → Node → Node → null
+
+---
+
+### 2. Doubly Linked List
+
+Each node contains:
+
+* Data
+* Link to the previous node
+* Link to the next node
+
+Traversal is possible in **both directions**.
+
+Structure:
+
+null ← Node ⇄ Node ⇄ Node → null
+
+---
+
+### 3. Circular Linked List
+
+The last node points back to the first node instead of `null`.
+
+There is **no null reference** in a circular linked list.
+
+---
+
+## Traversing a Linked List
+
+Traversing means visiting each node one by one starting from the head.
+
+Traversal continues until:
+
+* `null` is found (singly or doubly linked list)
+* Head is reached again (circular linked list)
+
+Time Complexity: **O(n)**
+
+---
+
+## Insertion in a Linked List
+
+### Insertion at Beginning
+
+* New node becomes the head
+* Old head becomes the next node
+
+Time Complexity: **O(1)**
+
+---
+
+### Insertion at End
+
+* Traverse until the last node
+* Update the last node’s link
+
+Time Complexity: **O(n)**
+
+---
+
+### Insertion at a Given Position
+
+* Traverse to the desired position
+* Carefully adjust links
+
+Time Complexity: **O(n)**
+
+---
+
+## Deletion in a Linked List
+
+### Deletion from Beginning
+
+* Head is updated to the next node
+
+Time Complexity: **O(1)**
+
+---
+
+### Deletion from End
+
+* Traverse to the second last node
+* Update its link to `null`
+
+Time Complexity: **O(n)**
+
+---
+
+### Deletion by Value
+
+* Search for the node containing the value
+* Adjust links to bypass it
+
+Time Complexity: **O(n)**
+
+---
+
+## Searching in a Linked List
+
+Searching is done using **sequential traversal**.
+Each node’s data is compared with the target value.
+
+Time Complexity: **O(n)**
+
+---
+
+## Why Linked Lists are Slower than Arrays
+
+Linked lists do **not support direct access**.
+To reach any element, traversal from the head is required.
+
+Arrays allow direct access using index, linked lists do not.
+
+---
+
+## Comparison: Array vs Linked List
+
+| Feature            | Array       | Linked List    |
+| ------------------ | ----------- | -------------- |
+| Memory             | Continuous  | Non-continuous |
+| Size               | Fixed       | Dynamic        |
+| Access             | Fast (O(1)) | Slow (O(n))    |
+| Insertion/Deletion | Slow        | Fast           |
+| Memory Overhead    | Less        | More           |
+
+---
+
+## Advantages of Linked Lists
+
+* Dynamic size
+* Efficient insertion and deletion
+* No memory wastage due to fixed size
+* Useful for dynamic data handling
+
+---
+
+## Limitations of Linked Lists
+
+* No random access
+* Extra memory required for links
+* Slower traversal
+* Pointer management is complex
+
+---
+
+## Applications of Linked Lists
+
+* Stack and Queue implementation
+* Dynamic memory allocation
+* Undo and Redo operations
+* Graph adjacency lists
+* Polynomial manipulation
+
+---
+
+## When to Use Linked Lists
+
+Use linked lists when:
+
+* Data size changes frequently
+* Insert and delete operations are common
+* Dynamic memory allocation is required
+
+Avoid linked lists when:
+
+* Fast access is required
+* Memory efficiency is critical
+* Data size is fixed
+
+---
+
+## Important Exam Points
+
+* Definition of linked list
+* Types of linked lists
+* Advantages and disadvantages
+* Comparison with arrays
+* Time complexity of operations
+
+---
+
+## Key Sentence to Remember
+
+A linked list stores elements in non-contiguous memory locations where each element points to the next using links.
+
+---
+
+## Note :-
+
+Imagine a **linked list as a treasure hunt**.
+
+Each clue (node) tells you **where the next clue is hidden**.
+You cannot jump directly to the last clue.
+You must follow the clues **one by one starting from the first**.
+
+This visualization makes linked lists much easier to understand.
+>>>>>>> 861bfc5 (completed linklist)
