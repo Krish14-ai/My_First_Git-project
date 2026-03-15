@@ -1,0 +1,22 @@
+Data structure
+
+ What are Data structure?
+-Data structure is a Structural way to arrange data.
+-Its a way to arrange data so that we can Search and Sort data as per our needs.
+-Data structures are of 2 Types
+ * Linear
+ * Non-Linear
+
+ As it sounds Linear Data structures store data Linearly
+ And Non-Linear stores Non-Linearly
+
+ Some examples of Linear Data structures are 
+ 1.Arrays
+ 2.Stack
+ 3.linked list etc
+
+ And Some examples of Non-Linear Data structures are 
+ 1.Graphs
+ 2.Trees etc
+ 
+ I know this is a Lot to understand just by a glance but as we proceed things becomes easier to understad, so please stay with me.
