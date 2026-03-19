@@ -1,0 +1,248 @@
+HASH MAP – INTRODUCTION (DATA STRUCTURES)
+What is a Hash Map?
+
+A Hash Map (also called a Hash Table) is a data structure used to store data in key–value pairs.
+
+Each element consists of:
+
+Key – unique identifier
+
+Value – data associated with the key
+
+A hash map uses a hash function to directly map a key to a memory location.
+
+Example (Conceptual)
+
+Key–Value pairs:
+
+("apple", 10), ("banana", 20), ("grape", 30)
+
+Hash Map representation:
+
+[0] → ("apple" → 10)
+[1] → ("banana" → 20)
+[2] → ("grape" → 30)
+
+How Hash Maps Work
+
+A hash map works in three steps:
+
+Take a key
+
+Apply a hash function
+
+Get an index where the value is stored
+
+Flow:
+
+Key → Hash Function → Index → Store Value
+
+Example:
+
+hash("apple") → 2 → store at index 2
+
+Hash Function
+
+A hash function converts a key into an integer index.
+
+Properties of a good hash function:
+
+Fast computation
+
+Uniform distribution
+
+Minimizes collisions
+
+Collision in Hash Maps
+
+A collision occurs when two different keys map to the same index.
+
+Example:
+
+hash("cat") = 3
+hash("bat") = 3
+
+Both map to index 3 → collision
+
+Collision Handling Techniques
+1. Chaining
+
+Each index stores a linked list
+
+Multiple elements can be stored at one index
+
+Structure:
+
+[3] → ("cat", 10) → ("bat", 20)
+
+2. Open Addressing
+
+Find another empty slot instead of storing multiple values at same index
+
+Types:
+
+Linear Probing
+
+Quadratic Probing
+
+Double Hashing
+
+Internal Structure
+
+A hash map consists of:
+
+Array (Buckets)
+
+Hash Function
+
+Collision Handling Method
+
+Operations in Hash Map
+Insertion (Put)
+
+Compute hash
+
+Find index
+
+Store value
+
+Time Complexity: O(1) (average)
+
+Searching (Get)
+
+Compute hash
+
+Go to index
+
+Match key
+
+Time Complexity: O(1) (average)
+
+Deletion (Remove)
+
+Compute hash
+
+Locate key
+
+Remove entry
+
+Time Complexity: O(1) (average)
+
+Worst Case Complexity
+
+If too many collisions occur:
+
+All operations become O(n)
+
+Load Factor
+
+Load Factor = Number of elements / Size of hash table
+
+It indicates how full the hash map is.
+
+Higher load factor → more collisions → slower performance
+
+Rehashing
+
+Rehashing means:
+
+Increasing table size
+
+Recomputing hash values
+
+Redistributing elements
+
+Why Hash Maps are Fast
+
+Direct access using index
+
+No traversal required
+
+Average constant time operations
+
+Comparison: Array vs Hash Map
+Feature	Array	Hash Map
+Access	O(1)	O(1) (average)
+Key Type	Index only	Any data type
+Ordering	Ordered	Unordered
+Searching	O(n)	O(1)
+Memory	Fixed	Dynamic
+Comparison: Hash Map vs Linked List
+Feature	Hash Map	Linked List
+Access	Fast	Slow
+Search	O(1) avg	O(n)
+Storage	Key–Value	Sequential
+Memory	More	Less
+Advantages of Hash Maps
+
+Fast access (O(1) average)
+
+Flexible key types
+
+Efficient for large data
+
+Widely used in real-world systems
+
+Limitations of Hash Maps
+
+No ordering of elements
+
+Collisions can occur
+
+Extra memory usage
+
+Performance depends on hash function
+
+Applications of Hash Maps
+
+Database indexing
+
+Caching systems
+
+Frequency counting
+
+Compiler symbol tables
+
+Password hashing
+
+When to Use Hash Maps
+
+Use hash maps when:
+
+Fast lookup is required
+
+Data is in key–value format
+
+Frequent insertions/deletions
+
+Avoid hash maps when:
+
+Order matters
+
+Memory is limited
+
+Worst-case performance must be avoided
+
+Important Exam Points
+
+Definition of hash map
+
+Hash function
+
+Collision and handling
+
+Load factor and rehashing
+
+Time complexity
+
+Key Sentence to Remember
+
+A hash map stores data in key–value pairs and uses a hash function to map keys directly to memory locations for fast access.
+
+Note :-
+
+Think of a hash map like a locker system.
+
+Each key is a locker number, and you directly open that locker instead of searching all of them.
+
+That’s why hash maps are extremely fast.
