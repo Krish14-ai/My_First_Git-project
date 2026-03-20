@@ -1,0 +1,4 @@
+this folder is specifically for .class files
+As java compiles the code it creates .class files 
+so that it becomes easier for JVM(Java Virtual Machine) to run them in any machine
+This is why java is know as "Compile once Run Anywhere Language" 
