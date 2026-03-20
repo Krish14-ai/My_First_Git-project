@@ -1,5 +1,6 @@
-Note:- if you run java files using "Code runner" or By Terminal, it will create .class files 
-       it is not a problem if you have single file but as you go increasing the number of files the number of .class files will rapidly increase 
+# Note:-
+       If you run java files using "Code runner" or By Terminal, it will create .class files.
+       It is not a problem if you have single file but as you go increasing the number of files the number of .class files will rapidly increase 
        and it will create confusion among the .java files so to prevent that you direct those dot class files into a folder named "OUT"
 
        and to do that we use these commands
