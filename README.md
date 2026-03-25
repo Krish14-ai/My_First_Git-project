@@ -183,4 +183,40 @@ Almost every tech company tests DSA because it shows how well you think, not jus
 
 ---
 
+## 🎯 Who Is This Repository For?
 
+* Beginners learning DSA
+* Students preparing for exams or interviews
+* Interview preparation
+* Anyone who wants clean explanations with practical use cases
+
+---
+
+## 🚀 Future Plans
+
+* Add algorithm explanations
+* Include time and space complexity analysis
+* Add code implementations in Java/Python
+* Add practice problems
+
+---
+
+HOW TO USE
+----------
+1. Start with Array.txt
+2. Move sequentially through Stack, Queue, and Linked List
+3. Practice implementations alongside reading
+4. Use files as quick revision notes
+   
+---
+
+
+## 📌 Note
+
+This repository represents my personal learning journey. It may evolve as I learn more advanced concepts.
+
+If you are learning DSA too, feel free to explore and learn along.
+
+---
+
+⭐ If you find this helpful, consider starring the repo.
